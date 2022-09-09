@@ -4,7 +4,7 @@
  * Author: Michal Szepielak
  *
  * Product info and license terms:
- * http://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
+ * https://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
  */
 
 namespace VanillaForm;
