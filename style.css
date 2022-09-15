@@ -167,11 +167,13 @@ body {
     font-family: 'glacial_indifferenceregular';
     background: #FFF;
     font-size: 16px;
+    text-align:justify;
 }
 body,
 li,
 address {
-    line-height: 24px
+    line-height: 24px;
+
 }
 input,
 button,
@@ -229,6 +231,7 @@ h3,
 h4,
 h5,
 h6 {
+  text-align: justify;
     color: #303030;
     font-weight: normal;
     font-family: 'glacial_indifferenceregular';
@@ -268,7 +271,7 @@ h4.upper {
     line-height: 45px;
 }
 section + section {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 h1.post-title {
     font-size: 28px;
@@ -300,8 +303,8 @@ h4.post-title {
     line-height: 30px;
 }
 .inner {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .inner2 {
     padding-top: 60px;
@@ -431,8 +434,8 @@ hr {
     padding: 0;
     margin: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 .alert {
     border-radius: 0
@@ -557,7 +560,7 @@ hr {
     position: relative;
     padding-top: 0;
     padding-bottom: 0;
-    color: #ccc;
+    color: #FFA733;
 }
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover,
@@ -1243,7 +1246,7 @@ a.cbp-caption p {
 .list-view .post,
 .classic-view .post,
 .grid-view .post {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 .grid-view .post {
     text-align: center;
@@ -1477,7 +1480,7 @@ a.cbp-caption p {
     padding: 0;
 }
 footer [class*="col-"] .widget {
-    margin-top: 30px
+    margin-top: 0px
 }
 footer [class*="col-"] .widget:first-child {
     margin-top: 0
@@ -1486,8 +1489,8 @@ footer [class*="col-"] .widget:first-child {
     background: #2a2a2a;
 }
 footer .inner {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     display: table;
 }
 footer .inner .cell {
@@ -1932,7 +1935,7 @@ footer p {
     background: none
 }
 .panel-footer {
-    padding: 25px 0 40px;
+    padding: 0px 0 40px;
     background: none;
     border: 0;
     background: #FFF;
@@ -1946,8 +1949,8 @@ footer p {
     background: none;
 }
 .pricing .panel-footer {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background: none;
 }
 /*-----------------------------------------------------------------------------------*/
@@ -2712,7 +2715,7 @@ select {
         width: 720px !important
     }
     .list-view .post .col-md-5 {
-	    margin-bottom: 20px;
+	    margin-bottom: 0px;
     }
 }
 @media only screen and (max-width: 360px), (max-height: 600px) {
@@ -2738,13 +2741,13 @@ select {
         padding: 0 20px;
     }
     footer [class*="col-"] {
-        margin-bottom: 30px
+        margin-bottom: 0px
     }
     footer .inner .cell {
 	    display: block;
 	    vertical-align: middle;
 	    text-align: center;
-	    margin-top: 20px;
+	    margin-top: 0px;
 	}
 	footer .inner .cell:first-child {
 	    margin-top: 0px;
