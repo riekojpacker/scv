@@ -3,7 +3,6 @@ choripan
 -------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------
 [TABLE OF CONTENTS]
-
 00. RESET
 01. GENERAL
 02. HEADER
@@ -32,7 +31,6 @@ choripan
 26. LIGHTGALLERY
 27. FONT ICONS
 28. RESPONSIVE
-
 text: #606060
 headings: #303030
 font-family: 'glacial_indifferenceregular';
@@ -42,7 +40,6 @@ font-family: 'glacial_indifferenceitalic';
 /*-----------------------------------------------------------------------------------*/
 /*	00. RESET
 /*-----------------------------------------------------------------------------------*/
-
 *,
 *:before,
 *:after {
@@ -158,6 +155,12 @@ iframe {
 /*-----------------------------------------------------------------------------------*/
 
 body {
+	    -youbkit-touch-callout: none; /*iOS Safari*/
+    -youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge y Opera 15+ */
+    -moz-user-select: none;    /*Firefox*/
+    -ms-user-select: none;        /* IE 10+ y Edge */
+    user-select: none;            /* Versión sin prefijo,
+                                actualmente compatible con Chrome y Opera */
     overflow-x: hidden;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
